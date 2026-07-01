@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Troncoso Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body data-page="home">
+    <main>
+      <!-- Home: versión desktop -->
+      <section class="home-page" data-home-page>
+        <div class="home-desktop">
+          <!-- Menú principal -->
+          <nav class="desktop-menu" aria-label="Navegación principal">
+            <a class="desktop-menu__brand" href="index.html">Amelia Troncoso</a>
+            <div class="desktop-menu__links">
+              <a class="desktop-menu__link" href="#about">Sobre mí</a>
+              <a class="desktop-menu__link" href="#contact">Contacto</a>
+            </div>
+          </nav>
+
+          <!-- Escenario principal de la home -->
+          <div class="home-stage-wrap">
+            <div class="home-stage">
+              <!-- Título animado -->
+              <h1 class="home-title" aria-label="Portafolio">
+                <span class="visually-hidden">Portafolio</span>
+                <div class="home-title__reveal" data-home-title-reveal>
+                  <video
+                    class="home-title__video"
+                    data-home-title-video
+                    aria-hidden="true"
+                    autoplay
+                    muted
+                    playsinline
+                    preload="auto"
+                  >
+                    <source src="assets/home-title-animation.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </h1>
+
+              <!-- Flecha para bajar al sector de proyectos -->
+              <button class="home-arrow" type="button" aria-label="Bajar a proyectos">
+                <img src="images/home/arrow-down.svg" alt="" aria-hidden="true" />
+              </button>
+
+              <!-- Tarjetas de proyectos -->
+              <!-- Grilla principal de proyectos en desktop -->
+              <div data-home-desktop-cards>
+              <a class="project-card" href="amanecer.html" style="left:41px;top:1179px;width:427px;height:720px;">
+                <div class="project-card__media">
+                  <img src="images/amanecer/home-amanecer-photo.png" alt="Festival Amanecer" style="width:224.83%;left:-64.17%;top:0;height:100%;" />
+                </div>
+                <div class="project-card__overlay">
+                  <span><span>Festival</span><span>Amanecer</span></span>
+                </div>
+              </a>
+              <a class="project-card" href="bypt.html" style="left:974px;top:1369px;width:426px;height:719px;">
+                <div class="project-card__media">
+                  <img src="images/bypt/home-bypt.png" alt="Joyas Bonito y Para Ti" style="width:253.17%;left:-76.58%;top:0;height:100%;" />
+                </div>
+                <div class="project-card__overlay">
+                  <span><span>Joyas</span><span>Bonito y para ti</span></span>
+                </div>
+              </a>
+              <a class="project-card" href="sade.html" style="left:508px;top:1748px;width:426px;height:720px;">
+                <div class="project-card__media">
+                  <img src="images/sade/home-sade.png" alt="Rebranding SADE" style="width:225.35%;left:-62.68%;top:0;height:100%;" />
+                </div>
+                <div class="project-card__overlay">
+                  <span><span>Rebranding</span><span>SADE</span></span>
+                </div>
+              </a>
+              <a class="project-card" href="vivid-wave.html" style="left:41px;top:2318px;width:427px;height:720px;">
+                <div class="project-card__media">
+                  <img src="images/vivid-wave/home-vivid-wave.png" alt="Festival Vivid Wave" style="width:274.37%;left:-37.09%;top:-5.14%;height:110.29%;" />
+                </div>
+                <div class="project-card__overlay">
+                  <span><span>Festival</span><span>Vivid Wave</span></span>
+                </div>
+              </a>
+              <a class="project-card" href="tesoros.html" style="left:974px;top:2508px;width:427px;height:719px;">
+                <div class="project-card__media">
+                  <img src="images/tesoros/home-tesoros-photo.png" alt="Revista Tesoros" style="width:224.36%;left:-62.06%;top:0;height:100%;" />
+                </div>
+                <div class="project-card__overlay">
+                  <span><span>Revista</span><span>Tesoros</span></span>
+                </div>
+              </a>
+              <a class="project-card" href="modelado-3d.html" style="left:507px;top:2888px;width:427px;height:719px;">
+                <div class="project-card__media">
+                  <img src="images/modelado-3d/home-3d.png" alt="Modelado 3D" style="width:164.17%;left:-20.75%;top:0.13%;height:100%;" />
+                </div>
+                <div class="project-card__overlay">
+                  <span><span>Modelado 3D</span></span>
+                </div>
+              </a>
+              </div>
+
+              <!-- Pie de la home -->
+              <section class="home-tools" aria-labelledby="tools-title">
+                <h2 id="tools-title" class="footer-title">Manejo de Herramientas</h2>
+                <div class="skills-list">
+                  <div class="skill">
+                    <span>Illustrator</span>
+                    <div class="skill__bar" style="--level:82.7%;"></div>
+                  </div>
+                  <div class="skill">
+                    <span>Photoshop</span>
+                    <div class="skill__bar" style="--level:61.8%;"></div>
+                  </div>
+                  <div class="skill">
+                    <span>InDesign</span>
+                    <div class="skill__bar" style="--level:74.5%;"></div>
+                  </div>
+                  <div class="skill">
+                    <span>Blender</span>
+                    <div class="skill__bar" style="--level:61.8%;"></div>
+                  </div>
+                  <div class="skill">
+                    <span>Blippar</span>
+                    <div class="skill__bar" style="--level:41.8%;"></div>
+                  </div>
+                  <div class="skill">
+                    <span>Fusion 360</span>
+                    <div class="skill__bar" style="--level:41.8%;"></div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="home-about" id="about" aria-labelledby="about-title">
+                <h2 id="about-title" class="footer-title">Sobre mi</h2>
+                <p class="footer-text">
+                  Soy estudiante de Diseño Gráfico en la Universidad del Desarrollo (UDD), con interés en la creación de soluciones visuales que equilibren estética y funcionalidad. Me motiva explorar distintas herramientas y estilos para comunicar ideas de manera clara y atractiva, adaptándome a los desafíos de cada proyecto. Actualmente, busco seguir desarrollando mi mirada creativa y adquirir experiencia que me permita generar propuestas con impacto y sentido.
+                </p>
+              </section>
+
+              <section class="home-contact" id="contact" aria-labelledby="contact-title">
+                <h2 id="contact-title" class="footer-title">Contacto</h2>
+                <p class="contact-lines">
+                  <a href="mailto:atroncosog22@gmail.com">atroncosog22@gmail.com</a>
+                  <a href="tel:+56962435774">+56 9 6243 5774</a>
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <!-- Home: versión mobile -->
+        <div class="home-mobile">
+          <section class="mobile-hero">
+            <h1>Portafolio</h1>
+          </section>
+
+          <div class="mobile-arrow-wrap">
+            <button class="home-arrow" type="button" aria-label="Bajar a proyectos">
+              <img src="images/home/arrow-down.svg" alt="" aria-hidden="true" />
+            </button>
+          </div>
+
+          <nav class="mobile-home-nav" aria-label="Navegación principal">
+            <a href="index.html">Amelia Troncoso</a>
+            <a href="#about-mobile">Sobre mí</a>
+            <a href="#contact-mobile">Contacto</a>
+          </nav>
+
+          <!-- Grilla simplificada de proyectos para mobile -->
+          <section class="mobile-card-grid" data-home-mobile-cards>
+          <a class="mobile-project-card" href="amanecer.html">
+            <figure class="mobile-project-card__figure">
+              <img src="images/amanecer/home-amanecer-photo.png" alt="Festival Amanecer" style="width:224.83%;left:-64.17%;top:0;height:100%;" />
+            </figure>
+            <p class="mobile-project-card__label"><span>Festival</span><span>Amanecer</span></p>
+          </a>
+          <a class="mobile-project-card" href="bypt.html">
+            <figure class="mobile-project-card__figure">
+              <img src="images/bypt/home-bypt.png" alt="Joyas Bonito y Para Ti" style="width:253.17%;left:-76.58%;top:0;height:100%;" />
+            </figure>
+            <p class="mobile-project-card__label"><span>Joyas</span><span>Bonito y</span><span>Para ti</span></p>
+          </a>
+          <a class="mobile-project-card" href="sade.html">
+            <figure class="mobile-project-card__figure">
+              <img src="images/sade/home-sade.png" alt="Rebranding SADE" style="width:225.35%;left:-62.68%;top:0;height:100%;" />
+            </figure>
+            <p class="mobile-project-card__label"><span>Rebranding</span><span>SADE</span></p>
+          </a>
+          <a class="mobile-project-card" href="vivid-wave.html">
+            <figure class="mobile-project-card__figure">
+              <img src="images/vivid-wave/home-vivid-wave.png" alt="Festival Vivid Wave" style="width:274.37%;left:-37.09%;top:-5.14%;height:110.29%;" />
+            </figure>
+            <p class="mobile-project-card__label"><span>Festival</span><span>Vivid Wave</span></p>
+          </a>
+          <a class="mobile-project-card" href="tesoros.html">
+            <figure class="mobile-project-card__figure">
+              <img src="images/tesoros/home-tesoros-photo.png" alt="Revista Tesoros" style="width:224.36%;left:-62.06%;top:0;height:100%;" />
+            </figure>
+            <p class="mobile-project-card__label"><span>Revista</span><span>Tesoros</span></p>
+          </a>
+          <a class="mobile-project-card" href="modelado-3d.html">
+            <figure class="mobile-project-card__figure">
+              <img src="images/modelado-3d/home-3d.png" alt="Modelado 3D" style="width:164.17%;left:-20.75%;top:0.13%;height:100%;" />
+            </figure>
+            <p class="mobile-project-card__label"><span>Modelado 3D</span></p>
+          </a>
+          </section>
+
+          <section class="mobile-footer">
+            <section aria-labelledby="mobile-tools-title">
+              <h2 id="mobile-tools-title" class="footer-title">Manejo de Herramientas</h2>
+              <div class="skills-list">
+                <div class="skill">
+                  <span>Illustrator</span>
+                  <div class="skill__bar" style="--level:82.7%;"></div>
+                </div>
+                <div class="skill">
+                  <span>Photoshop</span>
+                  <div class="skill__bar" style="--level:61.8%;"></div>
+                </div>
+                <div class="skill">
+                  <span>InDesign</span>
+                  <div class="skill__bar" style="--level:74.5%;"></div>
+                </div>
+                <div class="skill">
+                  <span>Blender</span>
+                  <div class="skill__bar" style="--level:61.8%;"></div>
+                </div>
+                <div class="skill">
+                  <span>Blippar</span>
+                  <div class="skill__bar" style="--level:41.8%;"></div>
+                </div>
+                <div class="skill">
+                  <span>Fusion 360</span>
+                  <div class="skill__bar" style="--level:41.8%;"></div>
+                </div>
+              </div>
+            </section>
+
+            <section id="about-mobile" aria-labelledby="mobile-about-title">
+              <h2 id="mobile-about-title" class="footer-title">Sobre mi</h2>
+              <p class="footer-text">
+                Soy estudiante de Diseño Gráfico en la Universidad del Desarrollo (UDD), con interés en la creación de soluciones visuales que equilibren estética y funcionalidad. Me motiva explorar distintas herramientas y estilos para comunicar ideas de manera clara y atractiva, adaptándome a los desafíos de cada proyecto. Actualmente, busco seguir desarrollando mi mirada creativa y adquirir experiencia que me permita generar propuestas con impacto y sentido.
+              </p>
+            </section>
+
+            <section id="contact-mobile" aria-labelledby="mobile-contact-title">
+              <h2 id="mobile-contact-title" class="footer-title">Contacto</h2>
+              <p class="contact-lines">
+                <a href="mailto:atroncosog22@gmail.com">atroncosog22@gmail.com</a>
+                <a href="tel:+56962435774">+56 9 6243 5774</a>
+              </p>
+            </section>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
